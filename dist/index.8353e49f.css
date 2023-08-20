@@ -10,12 +10,12 @@ ul, ol {
 }
 
 a, a:focus, a:visited {
-  color: #071f3e;
+  color: #ce81c2;
   text-decoration: none !important;
 }
 
 a:hover, a:focus:hover, a:visited:hover {
-  color: #ce81c2;
+  color: #071f3e;
 }
 
 html {
@@ -35,7 +35,7 @@ body {
                        "footer";
   max-width: 100vw;
   padding: .5rem;
-  font-family: Poppins, sans-serif;
+  font-family: Nunito Sans, sans-serif;
   display: grid;
   overflow-x: hidden;
 }
@@ -79,11 +79,11 @@ body {
 }
 
 .nav ul li {
-  color: #071f3e;
+  color: #ce81c2;
 }
 
 .nav ul li:hover {
-  color: #ce81c2;
+  color: #071f3e;
 }
 
 @media (width >= 768px) {
