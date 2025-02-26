@@ -1,12 +1,8 @@
 // Colors
-$off-white: #f5f0e8;
-$graphite: #242223;
-
-$background-body: $off-white;
-$text-body: $graphite;
-
-$text-accent: #28ffa9;
-$text-accent-alt: #d35e5d;
+$off-white: #f8f8f8;
+$text-body: #293039;
+$text-accent-alt: #071f3e;
+$text-accent: #ce81c2;
 
 // reset
 *,
@@ -45,10 +41,11 @@ img {
 // Main
 body {
   display: grid;
-  background: $background-body;
-  color: $text-body;
+  background: $off-white;
   padding: 0.5rem;
   font-family: 'Nunito Sans', sans-serif;
+  color: $text-body;
+  background: $off-white;
   max-width: 100vw;
   overflow-x: hidden;
   grid-template-areas:
@@ -66,14 +63,6 @@ body {
             "main main aside"
             "main main aside"
             "footer footer footer";
-  }
-}
-
-.text-accent {
-  color: $text-accent;
-
-  &--alt {
-    color: $text-accent-alt;
   }
 }
 
@@ -237,8 +226,6 @@ h1 {
     // }
   }
 }
-
-
 
 
 // Embed

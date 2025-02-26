@@ -1,3 +1,3 @@
 # site
 
-aaaaa
+`npm i && npm start`
